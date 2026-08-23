@@ -1,0 +1,58 @@
+@font-face {
+    src: url("timer.ttf");
+    font-family: timer;
+}
+body {
+    margin: 0;
+    background-color: #A599B5;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    margin: 20px 0px 10px 0px;
+    text-shadow: 0 0 5px #1F7A8C;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;   
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #F94F6D;
+    font-family: timer;
+    font-size: 90px;
+    background-image: url("black.png");
+    flex-shrink: 0;
+    width: 155px;
+    height: 120px;
+}
+
+button {
+    margin-top: 20px;
+    border: 2px solid #CDDDDD;
+    border-radius: 10%;
+    color: #CDDDDD;
+    text-shadow: 0 0 5px #1F7A8C;
+    background-color: #ACBDBA;
+    width: 45px;
+    height: 45px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#reset {
+    display: block;
+    width: 100px;
+    height: 45px;
+    margin: 20px auto;
+}
